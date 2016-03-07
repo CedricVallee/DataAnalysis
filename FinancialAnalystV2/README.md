@@ -16,4 +16,6 @@ The code should be run as follow:
 
 1- Extract the MDA sections from the 10-k reports in the folder "data" using extractMDA.py 
 (which calls the classes Helper.py and Scraper.py). The folder "mda" will fill up with the MDA sections. <br>
-2- Run main.py (which calls Matcher.py and Validator.py) to create a dataframe, add features such as matching with the Loughran and McDonald finance dictionary, and test the performance of a Random Forest Classifier.
+2- Run main.py (which calls Matcher.py and Validator.py) to create a dataframe, add features such as matching with the Loughran and McDonald finance dictionary, and test the performance of a Random Forest Classifier. <br>
+<br>
+The folder mdatest contains some examples of mda sections (scraped using extractMDA.py) which can be used as test files (to put in the folder "mda") for the functions in main.py
