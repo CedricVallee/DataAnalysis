@@ -15,5 +15,5 @@ v2.dictionary/ <br>
 The code should be run as follow:
 
 1- Extract the MDA sections from the 10-k reports in the folder "data" using extractMDA.py 
-(which calls the classes Helper.py and Scraper.py). The folder "mda" will fill up with the MDA sections.
-2- f
+(which calls the classes Helper.py and Scraper.py). The folder "mda" will fill up with the MDA sections. <br>
+2- Run main.py (which calls Matcher.py and Validator.py) to create a dataframe, add features such as matching with the Loughran and McDonald finance dictionary, and test the performance of a Random Forest Classifier.
