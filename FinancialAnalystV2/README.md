@@ -7,7 +7,9 @@ v2.dictionary/
   extractMDA.py
   Scraper.py
   Helper.py
-
+  LoughranMcDonald_MasterDictionary_2014.xlsx
+  Matcher.py
+  main.py
 
 The code should be run as follow:
 
