@@ -9,6 +9,7 @@ v2.dictionary/ <br>
 &emsp;  Helper.py <br>
 &emsp;  LoughranMcDonald_MasterDictionary_2014.xlsx <br>
 &emsp;  Matcher.py <br>
+&emsp;  Validator.py <br>
 &emsp;  main.py <br>
 
 The code should be run as follow:
