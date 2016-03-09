@@ -1,3 +1,5 @@
+We improved our first version of the financial analyst by adding three new features: matching with the Loughran and McDonald's financial dictionary, analysis of the delta_at and delta_sales indices from Compustat. <br> <br>
+
 This folder contains code to run a financial analysis on 10-k reports. The workspace should be organized as follow:
 
 data/    &emsp;              # Folder containing 10-k reports <br>
