@@ -16,7 +16,7 @@ v2.dictionary/ <br>
 <b>PRELIMINARY STEPS</b><br>
 0A- MDA sections are extracted from the 10-k reports (folder 'data') and saved in the folder 'mda' using extractMDA.py
 (which calls the classes Helper.py and Scraper.py).<br>
-0B- The file compustat_filenames.csv is obtained by running SQL queries (see file 'queries.sql') on Compustat raw financial data. <br>
+0B- The file compustat_filenames.csv is obtained by running SQL queries (see file 'queries.sql') on Compustat raw financial data. The columns 'delta_sales' and 'delta_at' are added using basic calculation on MS Excel (see slides).<br>
 <br>
 <b>RUNNING THE CODE</b><br>
 1- Run main.py (which calls Matcher.py and Validator.py) to create a dataframe, add features such as matching with the Loughran and McDonald finance dictionary, and test the performance of a Random Forest Classifier. <br>
