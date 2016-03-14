@@ -1,5 +1,24 @@
 <p><b>Instructions</b></p>
 
+This folder contains code to run a financial analysis on 10-k reports. The workspace should be organized as follow:
+
+data/    &emsp;              # Folder containing 10-k reports <br>
+mda/     &emsp;              # Folder containing the MDA sections, scraped using extractMDA.py, Scraper.py and Helper.py <br>
+matrix.csv  &emsp;           # Global matrix containing all our features<br>
+2.scrapeMDA/<br>
+&emsp;  debug/               # Folder containing 10-k reports that extractMDA wasn't able to scrape <br>
+&emsp;  extractMDA.py <br>
+&emsp;  Helper.py <br>
+&emsp;  Scraper.py <br>
+3.createMatrix/<br>
+&emsp;  compustat_40_days.csv <br>
+&emsp;  LoughranMcDonald_MasterDictionary_2014.csv <br>
+&emsp;  createMatrix.py <br>
+&emsp;  Matcher.py <br>
+4.fitModels/<br>
+&emsp;  fitModels.py <br>
+&emsp;  Fitter.py <br>
+
 <p><b>0.extractZIP</b><br>
 Download all relevant 10-k reports from ftp://ftp.sec.gov/edgar/full-index/ and save them in the 'data' folder.<br>
 11 152 / 11 172 => 0.0017% error in our matching (Sector: Industrials. Code: 20).</p>
