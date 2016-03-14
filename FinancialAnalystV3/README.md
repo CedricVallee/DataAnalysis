@@ -1,14 +1,17 @@
 <p><b>Instructions</b></p>
 
 <p><b>0.extractZIP</b><br>
-Download all relevant 10-k reports from ftp://ftp.sec.gov/edgar/full-index/ and save them in the 'data' folder.</p>
+Download all relevant 10-k reports from ftp://ftp.sec.gov/edgar/full-index/ and save them in the 'data' folder.<br>
+11 152 / 11 172 => 0.0017% error in our matching (Sector: Industrials. Code: 20).</p>
 
 <p><b>1.labelReports</b><br>
 We defined three tags: 'sell', 'hold' and 'buy'. Each 10-k report is allocated a tag by financial analysts and these decisions are available on Compustat. The .csv file containing Compustat data is named 'compustat_40_days.csv' and placed in the folder '3.createMatrix'.</p>
 
 <p><b>2.scrapeMDA</b><br>
-Files are scraped by extractMDA.py, which calls Helper.py and Scraper.py <br>
-The rest of the files (5 out of 11,000) raised exceptions and are placed in the 'debug' folder, to be analyzed manually.</p>
+Most files are scraped by extractMDA.py, which calls Helper.py and Scraper.py <br>
+The rest of the files (633 out of 11,152) raised exceptions and are placed in the 'debug' folder, to be analyzed manually.<br>
+10 520/ 11 152
+</p>
 
 <p><b>3.createMatrix</b><br>
 The Loughran and McDonald's dictionary was saved as 'LoughranMcDonald_MasterDictionary_2014.csv'.<br>
